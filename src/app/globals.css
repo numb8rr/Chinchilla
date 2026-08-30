@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: #ffffff;
+  --color-foreground: #0B0E1A;
+  --color-muted: #F5F6F8;
+  --color-muted-foreground: #6B7280;
+  --color-cyan: #2FD8E8;
+  --color-cyan-light: #4DE8F0;
+  --color-gold: #D4A843;
+  --color-border: #E5E7EB;
+  --font-sans: var(--font-inter);
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+    background: #ffffff;
+    color: #0B0E1A;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
