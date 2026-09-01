@@ -83,7 +83,7 @@ export default function Footer() {
             <h4 className="text-sm font-semibold text-[#0B0E1A] mb-4">На карте</h4>
             <div className="rounded-2xl overflow-hidden border border-gray-100 aspect-[4/3]">
               <iframe
-                src="https://yandex.ru/map-widget/v1/?ll=50.107%2C53.214&z=15&pt=50.107%2C53.214&org=217077843620"
+                src="https://yandex.ru/map-widget/v1/?ll=50.267738%2C53.198419&z=16&pt=50.267738%2C53.198419&org=202317434182"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
